@@ -15,7 +15,11 @@ Hardware Requirements
 	Microcontroller: Arduino Nano V3.0 (ATmega328P)
 	Receiver: Futaba S.BUS2 compatible receiver (e.g., R334SBS, R304SB)
 	LEDs: 30x Addressable RGBW NeoPixel / SK6812 LED strip
-	Signal Inverter: NPN transistor (e.g., KSP2222A or BC547) + 10kΩ resistor + 4.3V/4.7V Zener diode circuit
+	Signal Inverter:
+	* NPN Transistor (e.g., KSP2222A, BC547, or similar)
+  	* 10kΩ Resistor (Base resistor)
+  	* 1kΩ Resistor (S.BUS2 signal inline / pull-up)
+  	* 3.3V Zener Diode (Voltage clamping)
 
 Pin Mapping
 Arduino Pin 	Connection
