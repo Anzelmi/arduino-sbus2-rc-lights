@@ -20,11 +20,12 @@ Hardware Requirements
 	Signal Inverter: NPN transistor (e.g., KSP2222A or BC547) + 10kΩ resistor + 4.3V/4.7V Zener diode circuit
 
 Pin Mapping
-Arduino PinConnection
-D0 (RX)Inverted S.BUS2 Signal Input
-D2 (VCC Out)5V Power Rail for Hardware Inverter Circuit
-D6 NeoPixel Data InputA0Unconnected (Analog Random Seed Generator)
-GND / 5VCommon Ground & Power Lines
+Arduino Pin 	Connection
+D0 (RX)			Inverted S.BUS2 Signal Input
+D2 (VCC Out)	5V Power Rail for Hardware Inverter Circuit
+D6 				NeoPixel Data Input
+A0				Unconnected (Analog Random Seed Generator)
+GND / 5V 		Common Ground & Power Lines
 
 Installation & Usage
 Upload Code: Disconnect the D0 (RX) wire during USB flashing to avoid serial upload conflicts. Reconnect D0 after uploading.
