@@ -28,6 +28,6 @@ A0				Unconnected (Analog Random Seed Generator)
 GND / 5V 		Common Ground & Power Lines
 
 Installation & Usage
-Upload Code: Disconnect the D0 (RX) wire during USB flashing to avoid serial upload conflicts. Reconnect D0 after uploading.
-Boot Calibration: Keep the throttle trigger in the neutral position when powering on the vehicle to allow automatic CH2 brake calibration.
-Channel Inversion: If brake lights trigger during forward throttle, change BRAKE_DIRECTION from 1 to -1 in the code.
+1. Upload Code: Disconnect the D0 (RX) wire during USB flashing to avoid serial upload conflicts. Reconnect D0 after uploading.
+2. Boot Calibration: Keep the throttle trigger in the neutral position when powering on the vehicle to allow automatic CH2 brake calibration.
+3. Channel Inversion: If brake lights trigger during forward throttle, change BRAKE_DIRECTION from 1 to -1 in the code.
