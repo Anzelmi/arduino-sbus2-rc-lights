@@ -3,15 +3,13 @@ Arduino S.BUS2 RC Lighting Controller
 An Arduino Nano-based lighting controller for 1:10 scale RC cars. It decodes live Futaba S.BUS2 receiver data via hardware inversion to control addressable NeoPixel (RGBW) LED effects, backfire flames, and dynamic CH2-driven brake lights.
 
 Features
-
-Futaba S.BUS2 Integration: Direct decoding of receiver channel data without extra PWM wiring.
-Auto-Calibrating Brake Lights: Continuously monitors CH2 (Throttle/Brake) with automatic neutral-position calibration at startup.
-Multi-Mode Lighting FX (CH6 / CH7 Toggle):
+- Futaba S.BUS2 Integration: Direct decoding of receiver channel data without extra PWM wiring.
+- Auto-Calibrating Brake Lights: Continuously monitors CH2 (Throttle/Brake) with automatic neutral-position calibration at startup.
+- Multi-Mode Lighting FX (CH6 / CH7 Toggle):
 	Mode 0 (Off): All secondary effects disabled; brake lights remain functional.
 	Mode 1 (Street/Underglow): Smooth animated underglow pulse effect + randomized exhaust flame backfire.
 	Mode 2 (Police): Alternating red/blue strobe sequence + randomized exhaust flame backfire.
-
-Failsafe System: Automatically douses all LEDs if the S.BUS2 signal drops for more than 1000 ms.
+- Failsafe System: Automatically douses all LEDs if the S.BUS2 signal drops for more than 1000 ms.
 
 Hardware Requirements
 	Microcontroller: Arduino Nano V3.0 (ATmega328P)
